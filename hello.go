@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-func hello() {
-	fmt.Println("Hello Wolrd!")
+var name string = "World"
 
+func hello() {
+	fmt.Printf("Hello, %v !", name)
 }
